@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    
+}
+body{
+    background: #E7EFF6;
+}
+/*Posicionamiento de cajas*/
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    background: #000000b6;
+    line-height: 100px;
+    color: #77D7D6;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid #000; */
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    background: #77D7D6;
+}
+nav ul li {
+    float: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    list-style: none;
+}
+nav ul li a{
+    line-height: 60px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #000;
+    
+}
+nav ul li:hover a{
+  /*text-decoration: underline;
+  */text-decoration: underline;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  color: #FFFFFF;
+}
+footer i:hover{
+    transform: scaleY(1.4);
+    -webkit-transform: scaleY(1.4);
+    -moz-transform: scaleY(1.4);
+    -ms-transform: scaleY(1.4);
+    -o-transform: scaleY(1.4);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center; 
+    padding-top: 10%; 
+    padding-bottom: 10%;
+}
+
+.container #section{
+    width: 40%;
+    height: 40%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.657);
+}
+ #section .box1{
+    width: 100%;
+    height: 227px;
+    background: #FFFFFF;
+    /* border: 1px solid #000; */
+}
+#section .box2{
+    float: left;
+    width: 50%;
+    height: 261px;
+    background: #46B4B0;
+    /* border: 1px solid #000; */
+}
+#section .box3{
+    float: right;
+    /* border: 1px solid #444; */
+    width: 50%;
+    height: 261px;
+    background: #5CBFBC;
+}
+/*Fin de posicionamientos de cajas*/
+
+/*Comienzo de estilos de textos y posicionamiento*/
+
+/*|Caja 1| |Textos|*/
+
+#section .box1 h2 {
+    font-family: 'Karla', sans-serif;
+    color: #4FB5B5;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+#section .box1 h4{
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    padding-left: 30px;
+    color: #C0DB4E;
+    padding-bottom: 15px;
+}
+#section .box1 p {
+    color: #BDBFC5;
+    font-family: 'Karla', sans-serif;
+    padding-left: 30px;
+    font-weight: 400;
+}
+/*/* Fin de|Caja 1| |Textos|*/
+
+/*|Caja 2| |Textos|*/
+#section .box2 h5 {
+    font-family: 'Karla', sans-serif;
+    color: #EEFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 32px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+}
+
+#section .box2 .h4{
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    color: #FAFFFF;
+    padding-left: 40px;
+    padding-bottom: 11px;
+    font-weight: 600;
+}
+#section .box2 .span {
+    font-size: 16px;
+    color:#77D7D6;
+    padding-left: 5px;
+}
+#section .box2 .h4_2{
+    padding-left: 40px;
+    color: #C9FFFF;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+#section .box2 button{
+    width: 64%;
+    height: 51px;
+    background: #BFE23B;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+/*Fin de |Caja 2| |Textos|*/
+
+/*|Caja 3| |Textos|*/
+
+#section .box3 h4{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    padding-top:38px ;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: #E2FFFF;
+}
+#section .box3 p{
+    padding-left: 40px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-family: 'Karla', sans-serif;
+    color: #9FEAEA;
+    
+}
+/* Fin de|Caja 3| |Textos|*/
+footer {
+    width: 100%;
+    height: 200px;
+    background: #000000b6; 
+    text-align: center;
+}
+footer .h44{
+    line-height: 100px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    color: #FAFFFF;
+   
+}
+footer .h445{
+    font-family: 'Karla', sans-serif;
+    color: #FAFFFF;
+    font-size: 19px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+footer i {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 40px;
+}
+.facebook{
+    color: #3B82EC;
+}
+.whatsapp{
+    color: #61F16B;
+}
+.twitter{
+    color: #3EA0F1;
+}
+/*Comienzo de estilos de textos y posicionamiento*/
+@media   (max-width: 1680px){
+    .container #section{
+        width: 70%;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: center;
+        list-style: none;
+        background: #9FEAEA;
+        border-bottom: 5px solid #000;
+    }
+   
+    nav ul li {
+        float: left;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+    }
+    nav ul li a{
+        line-height: 60px;
+        text-decoration: none;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        color: #000;
+        
+    }
+}
+
+@media(max-width:640px){
+    body{
+        background-repeat: no-repeat;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: center;
+        list-style: none;
+        background: #9FEAEA;
+        border-bottom: 5px solid #000;
+    }
+   
+    nav ul li {
+        float: left;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+    }
+    nav ul li a{
+        line-height: 60px;
+        text-decoration: none;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        color: #000;
+        
+    }
+   
+    .container #section{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 726px;
+        margin-top: 0;
+        margin-bottom: 60px;
+        box-shadow: none;
+    }
+    .container #section .box1{
+        width: auto;
+        height: 271px;
+    }
+    .container #section .box1 h2{
+        font-size: 20px;
+        padding-top: 24px;
+    }
+    .container #section .box1 h4{
+        font-size: 17px;
+    }
+    .container #section .box1 p{
+        margin-bottom: 4px;
+    }
+    .container #section .box2{
+        width: 100%;
+        height: 271px;
+    }
+    .container #section .box2 button{
+        width: 242px;
+        height: 48px;
+        font-size: 18px;
+    }
+    .container #section .box3{
+        width: 100%;
+        height: 271px;
+    } 
+    .container #section .box3 p{
+        font-size: 13px;
+        color:#FAFFFF;
+    }
+
+}
+
